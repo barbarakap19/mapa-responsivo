@@ -1,0 +1,19 @@
+footer.footer{
+    padding-top:0.1rem;
+    padding-bottom:0.1rem; 
+    position: fixed; 
+    bottom: 0;
+    margin: 0; 
+    width: 100%;
+    background-color: rgb(236, 236, 236, 0.4);
+    
+    
+}
+
+li.list-inline-item a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
