@@ -1,133 +1,64 @@
+<div class="nav-side-menu">
+    <div class="brand">Brand Logo</div>
+    <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+  
+        <div class="menu-list">
+  
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                  <a href="#">
+                  <i class="fa fa-dashboard fa-lg"></i> Dashboard
+                  </a>
+                </li>
+
+                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                  <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+                    <li class="active"><a href="#">CSS3 Animation</a></li>
+                    <li><a href="#">General</a></li>
+                    <li><a href="#">Buttons</a></li>
+                    <li><a href="#">Tabs & Accordions</a></li>
+                    <li><a href="#">Typography</a></li>
+                    <li><a href="#">FontAwesome</a></li>
+                    <li><a href="#">Slider</a></li>
+                    <li><a href="#">Panels</a></li>
+                    <li><a href="#">Widgets</a></li>
+                    <li><a href="#">Bootstrap Model</a></li>
+                </ul>
 
 
-<input type="checkbox" id="check">
-<label id="icone" for="check"><img src="assets/icone.png"></label>
-
-<div class="barra">
-
-    <nav>
-        <!-- <a href=""><div class="link">Home</div></a>
-        <a href=""><div class="link">Home</div></a>
-        <a href=""><div class="link">Home</div></a>
-        <a href=""><div class="link">Home</div></a> -->
-
-        <ul class="list-group">
-                <li class="list-group-item" style="text-align: center; background-color: #009688; color: white">PESQUISAR LABORATÓRIO</li>
-       </ul>
-       <br>
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Pesquisar..." aria-label="Pesquisar" aria-describedby="button-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
-            </div>
-          </div>
-          <hr>
-
-          <ul class="list-group">
-                <li class="list-group-item" style="text-align: center; background-color: #009688; color: white">RESULTADO DA BUSCA</li>
-         </ul>  
-         
-        <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Laboratórios
-                      </button>
-                    </h5>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderitad squid.   
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Instituições
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Serviços
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div class="card-body">
-                      Anim pariatur cliche reprehenderit.
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                        <div class="card-header" id="headingFour">
-                          <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              Pesquisadores
-                            </button>
-                          </h5>
-                        </div>
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                          <div class="card-body">
-                            Anim pariatur cliche reprehenderit.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                            <div class="card-header" id="headingFive">
-                              <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  Localidades
-                                </button>
-                              </h5>
-                            </div>
-                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                              <div class="card-body">
-                                Anim pariatur cliche reprehenderit.
-                              </div>
-                            </div>
-                          </div>          
-              </div> 
-
-              <ul class="list-group">
-                    <li class="list-group-item" style="text-align: center; background-color: #009688; color: white">ICONNECT / PCT - GUAMÁ</li>
-             </ul> 
-              
-             <div class="accordion" id="accordionExample">
-                    <div class="card">
-                      <div class="card-header" id="headingSix">
-                        <h5 class="mb-0">
-                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                            Laboratórios
-                          </button>
-                        </h5>
-                      </div>
-                  
-                      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                        <div class="card-body">
-                          Anim pariatur cliche reprehenderitad squid.   
-                        </div>
-                      </div>
-                    </div>   
-                    </div>       
-                
-              
-       
-    </nav>
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                  <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                </li>  
+                <ul class="sub-menu collapse" id="service">
+                  <li>New Service 1</li>
+                  <li>New Service 2</li>
+                  <li>New Service 3</li>
+                </ul>
 
 
+                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                  <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="new">
+                  <li>New New 1</li>
+                  <li>New New 2</li>
+                  <li>New New 3</li>
+                </ul>
+
+
+                 <li>
+                  <a href="#">
+                  <i class="fa fa-user fa-lg"></i> Profile
+                  </a>
+                  </li>
+
+                 <li>
+                  <a href="#">
+                  <i class="fa fa-users fa-lg"></i> Users
+                  </a>
+                </li>
+            </ul>
+     </div>
 </div>
-
