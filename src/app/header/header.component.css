@@ -1,6 +1,14 @@
 nav {
     background: #ececec;
     
-    
+      
 }
 
+@media screen and (min-width:768px) and (min-height:405px) {
+    nav {
+        width: 84%;
+        left: 300px;
+      }
+      
+         
+    }
