@@ -5,8 +5,8 @@
         <div class="menu-list">
   
             <ul id="menu-content" class="menu-content collapse out">
-                <li>
-<hr>
+                
+<br>
                       <form>
                           <div class="input-group">
                             <input type="text" class="form-control" name="mapaFiltro" placeholder="Pesquisar...">
@@ -23,32 +23,22 @@
                 
                         </form>
 <br>
+
                          <!-- Button to Open the Modal -->
                           <button class="info" type="button" class="btn btn-outline-info btn-sm" data-toggle="modal" data-target="#myModal" (click)="mostrarInformacao(m)">
                               Busca Avançada
                           </button>
                  
-                </li>
-<hr>
-                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                  <a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>
-                </li>
-                <ul class="sub-menu collapse" id="products">
-                    <li class="active"><a href="#">CSS3 Animation</a></li>
-                    <li><a href="#">General</a></li>
-                    <li><a href="#">Buttons</a></li>
-                    <li><a href="#">Tabs & Accordions</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">FontAwesome</a></li>
-                    <li><a href="#">Slider</a></li>
-                    <li><a href="#">Panels</a></li>
-                    <li><a href="#">Widgets</a></li>
-                    <li><a href="#">Bootstrap Model</a></li>
-                </ul>
-
-
+                
+<br><br>
+                <div class="card">         
+                  <div class="card-header" style="text-align: center; background: #009688; color: white">
+                      <span>RESULTADOS DA PESQUISA</span>
+                    </div>
+                    </div>
+                   
                 <li data-toggle="collapse" data-target="#service" class="collapsed">
-                  <a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>
+                  <a href="#"><i class="fas fa-vials fa-lg"></i> Laboratórios <span class="arrow"></span></a>
                 </li>  
                 <ul class="sub-menu collapse" id="service">
                   <li>New Service 1</li>
@@ -57,31 +47,49 @@
                 </ul>
 
 
-                <li data-toggle="collapse" data-target="#new" class="collapsed">
-                  <a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>
+                <li data-toggle="collapse" data-target="#instituicao" class="collapsed">
+                  <a href="#"><i class="fas fa-university fa-lg"></i> Instituições <span class="arrow"></span></a>
                 </li>
-                <ul class="sub-menu collapse" id="new">
+                <ul class="sub-menu collapse" id="instituicao">
                   <li>New New 1</li>
                   <li>New New 2</li>
                   <li>New New 3</li>
                 </ul>
 
-
-                 <li>
-                  <a href="#">
-                  <i class="fa fa-user fa-lg"></i> Profile
-                  </a>
+                <li data-toggle="collapse" data-target="#servico" class="collapsed">
+                    <a href="#"><i class="fas fa-cogs fa-lg"></i> Serviços <span class="arrow"></span></a>
                   </li>
+                  <ul class="sub-menu collapse" id="servico">
+                    <li>New New 1</li>
+                    <li>New New 2</li>
+                    <li>New New 3</li>
+                  </ul>
 
-                 <li>
-                  <a href="#">
-                  <i class="fa fa-users fa-lg"></i> Users
-                  </a>
-                </li>
+                  <li data-toggle="collapse" data-target="#pesquisador" class="collapsed">
+                      <a href="#"><i class="fas fa-user-tie fa-lg"></i> Pesquisadores <span class="arrow"></span></a>
+                    </li>
+                    <ul class="sub-menu collapse" id="pesquisador">
+                      <li>New New 1</li>
+                      <li>New New 2</li>
+                      <li>New New 3</li>
+                    </ul>
+
+                    <li data-toggle="collapse" data-target="#localidade" class="collapsed">
+                        <a href="#"><i class="fa fa-globe fa-lg"></i> Localidades <span class="arrow"></span></a>
+                      </li>
+                      <ul class="sub-menu collapse" id="localidade">
+                        <li>New New 1</li>
+                        <li>New New 2</li>
+                        <li>New New 3</li>
+                      </ul>
+                
             </ul>
+     
      </div>
 
 </div>
+
+<!--Modal-->
 
 <div class="modal" id="myModal">
     <div class="modal-dialog">
@@ -89,7 +97,7 @@
 
         <!-- Modal Header -->
         <div class="modal-header" style="text-align: center; background: #009688; color: white">
-          <h4 class="modal-title">Detalhes</h4>
+          <h4 class="modal-title">Busca Avançada</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
 
